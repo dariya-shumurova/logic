@@ -1,0 +1,72 @@
+.body {
+    font-family: Arial;
+    margin: 0;
+    background: white;
+    color: black;
+}
+
+/* HEADER */
+.header {
+    border-bottom: 2px solid black;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.main-nav, .days-nav {
+    padding: 10px 20px;
+    border-top: 1px solid black;
+}
+
+.button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* MAIN */
+.main {
+    padding: 20px;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+.day {
+    display: none;
+}
+
+.day.active {
+    display: block;
+}
+
+/* LESSON BLOCK */
+.lesson {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+/* FOOTER */
+.footer {
+    border-top: 2px solid black;
+    margin-top: 20px;
+}
+
+.footer-content {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
